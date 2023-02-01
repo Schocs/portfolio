@@ -44,20 +44,20 @@ const Sidebar = () => {
       }
       <div className='md:block hidden fixed top-[25%] z-10'>
         <div className='flex flex-col'>
-          <a href="#main" className='rounded-full shadow-lg bg-amber-100 shadow-bg-amber-400 m-2 p-4 cursor-pointer
-          hover:scale-110 ease-in duration-200 hover:bg-amber-300'>
+          <a href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-bg-pink-200 m-2 p-4 cursor-pointer
+          hover:scale-110 ease-in duration-200 hover:bg-pink-100'>
             <AiOutlineHome size={20}/>
           </a>
-          <a href="#projects" className='rounded-full shadow-lg bg-amber-100 shadow-bg-amber-400 m-2 p-4 cursor-pointer
-          hover:scale-110 ease-in duration-200 hover:bg-amber-300'>
+          <a href="#projects" className='rounded-full shadow-lg bg-gray-100 shadow-bg-pink-200 m-2 p-4 cursor-pointer
+          hover:scale-110 ease-in duration-200 hover:bg-pink-100'>
             <AiOutlineProject size={20}/>
           </a>
-          <a href="#about" className='rounded-full shadow-lg bg-amber-100 shadow-bg-amber-400 m-2 p-4 cursor-pointer
-          hover:scale-110 ease-in duration-200 hover:bg-amber-300'>
+          <a href="#about" className='rounded-full shadow-lg bg-gray-100 shadow-bg-pink-200 m-2 p-4 cursor-pointer
+          hover:scale-110 ease-in duration-200 hover:bg-pink-100'>
             <AiOutlineUser size={20}/>
           </a>
-          <a href="#contact" className='rounded-full shadow-lg bg-amber-100 shadow-bg-amber-400 m-2 p-4 cursor-pointer
-          hover:scale-110 ease-in duration-200 hover:bg-amber-300'>
+          <a href="#contact" className='rounded-full shadow-lg bg-gray-100 shadow-bg-pink-200 m-2 p-4 cursor-pointer
+          hover:scale-110 ease-in duration-200 hover:bg-pink-100'>
             <AiOutlineMail size={20}/>
           </a>
         </div>
