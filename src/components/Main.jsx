@@ -16,7 +16,7 @@ const Main = () => {
                 Eu sou um 
             <TypeAnimation
             sequence={[
-                'Desenvolvedor Web',
+                'Desenvolvedor de Projetos',
                 1500,
                 'Constante Estudante',
                 1500,
