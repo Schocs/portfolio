@@ -11,8 +11,8 @@ const Main = () => {
         />
         <div className='w-full h-screen top-0 left-0 bg-gray-300/70 absolute'>
         <div className='max-w-[700px] m-auto w-full h-full flex flex-col justify-center items-center'>
-            <h1 className='sm:text-3xl text-2xl font-extrabold font-montserrat text-gray-900'>Olá! Meu nome é João Pedro!</h1>
-            <h2 className='mt-3 sm:text-xl text-lg font-normal font-montserrat text-gray-900 flex flex-row'>
+            <h1 className='sm:text-4xl text-2xl font-extrabold font-montserrat text-gray-900'>Olá! Meu nome é João Pedro!</h1>
+            <h2 className='mt-3 sm:text-2xl text-xl font-normal font-montserrat text-gray-900 flex flex-row'>
                 Eu sou um 
             <TypeAnimation
             sequence={[
