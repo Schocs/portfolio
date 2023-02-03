@@ -1,6 +1,6 @@
 import React from 'react';
+import Card from './Card';
 import Timeline from './Timeline';
-import eu from '../assets/eu.jpg'
 
 const data = [
     {
@@ -28,14 +28,15 @@ const data = [
 
 const About = () => {
   return (
-    <div id='about' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-        <h1 className='text-gray-900 sm:text-3xl text-xl font-bold font-montserrat text-center'>Sobre</h1>
+    <div id='about' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 sm:h-screen'>
+        <h1 className='text-gray-900 sm:text-4xl text-2xl font-bold font-montserrat text-center'>Sobre</h1>
 {/*         <div className='rounded-full absolute right-[5%] shadow-lg shadow-pink-200 m-2 hover:right-[2.5%] hover:scale-110 group'>
             <img src={eu} alt="" className='object-cover w-full h-full rounded-full'/>
             <div className='bg-pink-200 invisible group-hover:visible absolute right-[20%] z-[-1] group-hover:w-[400%] top-0 h-full rounded-full'>
                 <p className='ml-5 mt-2 text-xs font-montserrat font-light'>Nasci em Teresópolis-RJ, 1996.<br /> Frequentei uma academia militar, mas me frustei.<br /> Cursei medicina, mas vi que não era pra mim.<br/> Encontrei na programação uma paixão e uma carreira.<br /> Sou movido por desafios e paixões.</p>
             </div>
         </div> */}
+        <Card />
     </div>
   )
 }

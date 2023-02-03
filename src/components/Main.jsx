@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div id='main'>
         <img src="https://images.unsplash.com/photo-1674418149815-d57ff02caf27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-        alt="Imagem de fundo, notebook e um porta lápis ao fundo" 
+        alt="Imagem de fundo, com texturas 'acimentadas'" 
         className='w-full h-screen object-cover object-left '
         />
         <div className='w-full h-screen top-0 left-0 bg-gray-300/70 absolute'>
