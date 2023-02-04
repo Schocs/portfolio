@@ -47,7 +47,7 @@ const Card = () => {
                 <div className='m-auto py-1 px-2 absolute rounded-xl shadow-slate-200 shadow-xl border border-gray-700 inset-0 hover:cursor-pointer bg-pink-300 [backface-visibility:hidden] [transform:rotateY(180deg)]'>
                     <div className='flex flex-col min-h-full items-center justify-center'>
                         <h5 class="mb-2 sm:text-2xl text-base font-bold tracking-tight text-slate-900">Meus hobbys</h5>
-                        <p class="sm:text-base text-sm font-normal text-slate-700">Minha grande paixão longe das telas é a música. Também adoro cozinhar, e me considero um bom cozinheiro não profissional. Perto das telas, além da progamação, me encantam os jogos. Gosto de caminhaas longas</p>
+                        <p class="sm:text-base text-sm font-normal text-slate-700">Minha grande paixão longe das telas é a música. Também adoro cozinhar, e me considero um bom cozinheiro não profissional. Perto das telas, além da progamação, me encantam os jogos. Gosto de caminhadas longas</p>
                     </div>
                 </div>
             </div>
