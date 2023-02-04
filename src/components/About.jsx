@@ -37,6 +37,8 @@ const About = () => {
             </div>
         </div> */}
         <Card />
+        <h1 className='text-gray-900 sm:text-2xl text-xl font-bold font-montserrat text-center mt-[10%]'>Experiência</h1>
+        <Timeline />
     </div>
   )
 }
