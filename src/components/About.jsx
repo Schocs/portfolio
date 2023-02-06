@@ -1,6 +1,12 @@
 import React from 'react';
 import Card from './Card';
 import Timeline from './Timeline';
+import Stack from './Stack';
+import java from '../assets/java-svgrepo-com.svg';
+import react from '../assets/reactjs-svgrepo-com.svg';
+import spring from '../assets/spring-svgrepo-com.svg';
+import postgres from '../assets/postgresql-svgrepo-com.svg';
+import javascript from '../assets/javascript-svgrepo-com.svg'
 
 const data = [
     {
@@ -26,6 +32,34 @@ const data = [
     }
 ];
 
+const stackData = [
+    {
+        image: java,
+        titulo: 'Java',
+        descricao: 'Experiência com JDK8+, JRE11+ e 8+. Desenvolvendo em 17+'
+    },
+    {
+        image: spring,
+        titulo: 'Spring Boot',
+        descricao: 'Experiência com 2.7+. Desenvolvendo em 3+'
+    },
+    {
+        image: postgres,
+        titulo: 'Postgres Sql',
+        descricao: '13+'
+    },
+    {
+        image: javascript,
+        titulo: 'JavaScript',
+        descricao: 'ES5, ES6'
+    },
+    {
+        image: react,
+        titulo: 'ReactJs e ReactNative',
+        descricao: '16+'
+    }
+]
+
 const About = () => {
   return (
     <div id='about' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 sm:h-screen'>
@@ -45,6 +79,18 @@ const About = () => {
             )))
         }
         <h1 className='text-gray-900 sm:text-2xl text-xl font-bold font-montserrat text-center mt-[5%]'>Stack</h1>
+        <div className='m-auto w-full h-[500px] mt-[5%] sm:h-[40%] relative items-center justify-center flex flex-wrap sm:flex-row sm:justify-between'>
+            {
+                (stackData.map((item, id) => (
+                    <Stack
+                    key={id}
+                    image={item.image}
+                    titulo={item.titulo}
+                    descricao={item.descricao}
+                    />
+                )))
+            }
+        </div>
     </div>
   )
 }
