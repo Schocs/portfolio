@@ -1,15 +1,9 @@
-import React,  { useState } from 'react';
+import React from 'react';
 import person from '../assets/digital-nomad-man-light-svgrepo-com.svg'
 import hobby from '../assets/ukulele-svgrepo-com.svg'
 import laptop from '../assets/laptop-svgrepo-com.svg'
 
 const Card = () => {
-
-    const [flip, setFlip] = useState(true);
-
-    const handleClick = () => {
-        setFlip(!flip);
-    }
 
     return (
     <div className='m-auto w-[90%] mt-[10%] sm:h-[50%] relative items-center justify-center flex-col sm:flex-row flex sm:justify-between'>
@@ -31,7 +25,7 @@ const Card = () => {
                 <div className='m-auto absolute rounded-xl shadow-pink-200 shadow-xl border border-gray-700 inset-0 hover:cursor-pointer bg-slate-400 [transform:rotateY(180deg)]'>
                     <img src={laptop} className='h-full w-full rounded-xl object-cover shadow-xl' alt="" />
                 </div>
-                <div onClick={handleClick} className='m-auto py-1 px-2 absolute rounded-xl shadow-slate-200 shadow-xl border border-gray-700 inset-0 hover:cursor-pointer bg-pink-300 [backface-visibility:hidden] [transform:rotateY(180deg)]'>
+                <div className='m-auto py-1 px-2 absolute rounded-xl shadow-slate-200 shadow-xl border border-gray-700 inset-0 hover:cursor-pointer bg-pink-300 [backface-visibility:hidden] [transform:rotateY(180deg)]'>
                     <div className='flex flex-col min-h-full items-center justify-center'>
                         <h5 class="mb-2 sm:text-2xl text-base font-bold tracking-tight text-slate-900">Profissional</h5>
                         <p class="sm:text-base text-sm font-normal text-slate-700">Sou movido por desafios. Fui militar por um tempo, quase médico, mas foram os desafios da programação que me inspiraram a perseguir esta carreira. Sou ávido por conhecimento.</p>
