@@ -8,8 +8,8 @@ const Stack = ( { image, titulo, descricao } ) => {
                 <img src={image} alt="" className='h-full w-full rounded-xl object-cover shadow-xl scale-x-[-1]' />
             </div>
             <div className='absolute m-auto p-1 sm:w-full sm:h-full rounded-xl border border-gray-700 inset-0 hover:cursor-pointer bg-black/75 [transform:rotateY(180deg)] [backface-visibility:hidden]'>
-                <h5 class="mb-2 sm:text-2xl text-base font-semibold space-x-1 tracking-tight text-white text-center font-montserrat">{titulo}</h5>
-                <p class="font-normal sm:text-base text-sm text-white font-montserrat">{descricao}</p>
+                <h5 class="mb-2 sm:text-2xl text-sm font-light sm:font-semibold tracking-tight text-white text-center font-montserrat z-10">{titulo}</h5>
+                <p class="sm:font-normal font-thin sm:text-base text-xs text-white font-montserrat z-10">{descricao}</p>
             </div>
         </div>
       </div>

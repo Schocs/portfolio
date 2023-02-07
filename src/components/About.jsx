@@ -36,12 +36,12 @@ const stackData = [
     {
         image: java,
         titulo: 'Java',
-        descricao: 'Experiência com JDK8+, JRE11+ e 8+. Desenvolvendo em 17+'
+        descricao: 'Experiência com JDK8+, JRE11+ e 8+. Desenvolvo em 17+'
     },
     {
         image: spring,
         titulo: 'Spring Boot',
-        descricao: 'Experiência com 2.7+. Desenvolvendo em 3+'
+        descricao: 'Experiência com 2.7+. Desenvolvo em 3+'
     },
     {
         image: postgres,
@@ -51,13 +51,13 @@ const stackData = [
     {
         image: javascript,
         titulo: 'JavaScript',
-        descricao: 'ES5, ES6'
+        descricao: 'Experiência com ES5. Desenvolvo em ES6'
     },
     {
         image: react,
         titulo: 'ReactJs e ReactNative',
-        descricao: '16+'
-    }
+        descricao: 'Desenvolvo em 16+ e 0.70'
+    },
 ]
 
 const About = () => {
@@ -79,7 +79,7 @@ const About = () => {
             )))
         }
         <h1 className='text-gray-900 sm:text-2xl text-xl font-bold font-montserrat text-center mt-[5%]'>Stack</h1>
-        <div className='m-auto w-full h-[500px] mt-[5%] sm:h-[40%] relative items-center justify-center flex flex-wrap sm:flex-row sm:justify-between'>
+        <div className='m-auto w-full h-[300px] mt-[5%] sm:h-[40%] relative items-center justify-center flex flex-wrap sm:flex-nowrap sm:flex-row sm:justify-between'>
             {
                 (stackData.map((item, id) => (
                     <Stack
