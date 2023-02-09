@@ -19,6 +19,20 @@ const Projects = () => {
       descricao:'Uma descricao',
       stack:'React, JavaScript, CSS',
       link:'https://www.google.com'
+    },
+    {
+      image:calculator,
+      titulo:'Calculadora - FrontEnd',
+      descricao:'Uma descricao',
+      stack:'React, JavaScript, CSS',
+      link:'https://www.google.com'
+    },
+    {
+      image:calculator,
+      titulo:'Calculadora - FrontEnd',
+      descricao:'Uma descricao',
+      stack:'React, JavaScript, CSS',
+      link:'https://www.google.com'
     }
   ]
 
