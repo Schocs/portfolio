@@ -9,7 +9,7 @@ const Projects = () => {
     {
       image:security,
       titulo:'Spring Security JWT - BackEnd',
-      descricao:'Este é um projeto básico de segurança em uma aplicação Spring Boot. Funciona com a geração de um JWT para autenticação, e dentro do token é possível se passar roles para autorização de acesso. No entanto, este projeto contém apenas a parte inicial da segurança. Utilizei JavaDoc para documentar o projeto.',
+      descricao:'Este é um projeto básico de segurança em uma aplicação Spring Boot. Funciona com a geração de um JWT para autenticação, e dentro do token é possível se passar roles para autorização de acesso. No entanto, este projeto contém apenas a parte inicial da segurança. Documentado com JavaDoc.',
       stack:'SpringSecurity 6.0, SpringBoot 3.0.1, Java 17',
       link:'https://github.com/Schocs/JwtSeguranca'
     },
