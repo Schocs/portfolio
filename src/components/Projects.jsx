@@ -1,16 +1,24 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import security from '../assets/security-shield-svgrepo-com.svg'
+import security from '../assets/security-shield-svgrepo-com.svg';
+import calculator from '../assets/calculator-svgrepo-com.svg';
 
 const Projects = () => {
 
   const projectData = [
     {
       image:security,
-      titulo:'Spring Security JWT - Backend',
+      titulo:'Spring Security JWT - BackEnd',
       descricao:'Este é um projeto básico de segurança em uma aplicação Spring Boot. Funciona com a geração de um JWT para autenticação, e dentro do token é possível se passar roles para autorização de acesso. No entanto, este projeto contém apenas a parte inicial da segurança. Utilizei JavaDoc para documentar o projeto.',
       stack:'SpringSecurity 6.0, SpringBoot 3.0.1, Java 17',
       link:'https://github.com/Schocs/JwtSeguranca'
+    },
+    {
+      image:calculator,
+      titulo:'Calculadora - FrontEnd',
+      descricao:'Uma descricao',
+      stack:'React, JavaScript, CSS',
+      link:'https://www.google.com'
     }
   ]
 
