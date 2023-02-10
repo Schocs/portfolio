@@ -16,21 +16,21 @@ const Projects = () => {
     {
       image:calculator,
       titulo:'Calculadora - FrontEnd',
-      descricao:'Uma descricao',
+      descricao:'Este é um projeto básico de segurança em uma aplicação Spring Boot. Funciona com a geração de um JWT para autenticação, e dentro do token é possível se passar roles para autorização de acesso. No entanto, este projeto contém apenas a parte inicial da segurança. Documentado com JavaDoc.',
       stack:'React, JavaScript, CSS',
       link:'https://www.google.com'
     },
     {
       image:calculator,
       titulo:'Calculadora - FrontEnd',
-      descricao:'Uma descricao',
+      descricao:'Este é um projeto básico de segurança em uma aplicação Spring Boot. Funciona com a geração de um JWT para autenticação, e dentro do token é possível se passar roles para autorização de acesso. No entanto, este projeto contém apenas a parte inicial da segurança. Documentado com JavaDoc.',
       stack:'React, JavaScript, CSS',
       link:'https://www.google.com'
     },
     {
       image:calculator,
       titulo:'Calculadora - FrontEnd',
-      descricao:'Uma descricao',
+      descricao:'Este é um projeto básico de segurança em uma aplicação Spring Boot. Funciona com a geração de um JWT para autenticação, e dentro do token é possível se passar roles para autorização de acesso. No entanto, este projeto contém apenas a parte inicial da segurança. Documentado com JavaDoc.',
       stack:'React, JavaScript, CSS',
       link:'https://www.google.com'
     }
