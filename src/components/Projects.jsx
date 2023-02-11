@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectItem from './ProjectItem';
 import security from '../assets/security-shield-svgrepo-com.svg';
 import calculator from '../assets/calculator-svgrepo-com.svg';
+import celular from '../assets/cellphone-svgrepo-com.svg'
 
 const Projects = () => {
 
@@ -21,11 +22,11 @@ const Projects = () => {
       link:'https://www.google.com'
     },
     {
-      image:calculator,
-      titulo:'Calculadora - FrontEnd',
-      descricao:'Este é um projeto básico de segurança em uma aplicação Spring Boot. Funciona com a geração de um JWT para autenticação, e dentro do token é possível se passar roles para autorização de acesso. No entanto, este projeto contém apenas a parte inicial da segurança. Documentado com JavaDoc.',
-      stack:'React, JavaScript, CSS',
-      link:'https://www.google.com'
+      image:celular,
+      titulo:'Aplicativo E-commerce - FrontEnd',
+      descricao:'O projeto foi feito por um time de 6 pessoas, focado apenas no FrontEnd, e se conecta a uma api fornecida. É uma aplicação de arquitetura monolítica. Este aplicativo de e-commerce permite a um usuário se cadastrar, modificar cadastro, adicionar itens a um carrinho, mas não comprar.',
+      stack:'ReactNative, Javascript, CSS',
+      link:'https://github.com/Schocs/React-Native-G6'
     },
     {
       image:calculator,
