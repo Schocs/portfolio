@@ -2,7 +2,7 @@ import classes from './item.module.css'
 
 import React, { useState, useEffect, useReducer } from 'react';
 
-const ItemProjeto = () => {
+const ItemProjeto = ( { image, alt, titulo, descricao, stack, link } ) => {
 
   const [isHidden, setIsHidden] = useState(true);
 
@@ -11,15 +11,14 @@ const ItemProjeto = () => {
   }
 
   return (
-    <a href='#project' className='item-projeto' onClick={showHidden}>
+    <div href='#project' className='item-projeto' onMouseEnter={showHidden}>
       <div className={!isHidden ? classes.hidden : classes.itemInicio}>
-        <h3>inicio</h3>
-        <div className={classes.teste}><h3>Olá</h3></div>
+        <p className={classes.tituloItem}>inicio</p>
       </div>
       <div className={isHidden ? classes.hidden : classes.itemFinal}>
         <h3>mudou</h3>
       </div>
-    </a>
+    </div>
   )
 }
 

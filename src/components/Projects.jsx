@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
+import ItemProjeto from './ItemProjeto/ItemProjeto';
 import security from '../assets/security-shield-svgrepo-com.svg';
 import calculator from '../assets/calculator-svgrepo-com.svg';
 import celular from '../assets/cellphone-svgrepo-com.svg'
@@ -43,7 +44,8 @@ const Projects = () => {
         <p className='text-gray-900 md:text-lg sm:text-base text-sm text-center font-montserrat font-medium mb-[15%]'>
           Estes são alguns dos projetos que desenvolvi durante minha jornada de desenvolvedor. Alguns são projetos apenas de FrontEnd, outros apenas de BackEnd, e o restante é FullStack. Todas as stacks estão detalhadas. Para melhor detalhamento dos projetos, acesse meu GitHub: <a href='https://github.com/Schocs' target='_blank' className='hover:text-indigo-500'>https://github.com/Schocs</a>
         </p>
-        {
+        <ItemProjeto />
+{/*         {
           (projectData.map((item, id) => (
             <ProjectItem
             key={id}
@@ -54,7 +56,7 @@ const Projects = () => {
             link={item.link}
             />
           )))
-        }
+        } */}
     </div>
   )
 }
