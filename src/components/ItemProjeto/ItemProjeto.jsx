@@ -13,7 +13,12 @@ const ItemProjeto = ( { image, alt, titulo, descricao, stack, link } ) => {
   return (
     <div href='#project' className='item-projeto' onMouseEnter={showHidden}>
       <div className={!isHidden ? classes.hidden : classes.itemInicio}>
-        <p className={classes.tituloItem}>inicio</p>
+        <div className={classes.tituloItem}>
+          <h3>inicio</h3>
+        </div>
+        <div className={classes.bodyItem}>
+          
+        </div>
       </div>
       <div className={isHidden ? classes.hidden : classes.itemFinal}>
         <h3>mudou</h3>
