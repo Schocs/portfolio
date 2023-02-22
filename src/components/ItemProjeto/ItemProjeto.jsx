@@ -11,17 +11,23 @@ const ItemProjeto = ( { image, alt, titulo, descricao, stack, link } ) => {
   }
 
   return (
-    <div href='#project' className='item-projeto' onMouseEnter={showHidden}>
+    <div href='#project' className='item-projeto' onClick={showHidden}>
       <div className={!isHidden ? classes.hidden : classes.itemInicio}>
-        <div className={classes.tituloItem}>
+        <div className={classes.imgItem}></div>
+        <div className={classes.sideItem}></div>
+      </div>
+      <div className={isHidden ? classes.hidden : classes.itemFinal}>
+      <div className={classes.tituloItem}>
           <h3>inicio</h3>
         </div>
         <div className={classes.bodyItem}>
           
         </div>
-      </div>
-      <div className={isHidden ? classes.hidden : classes.itemFinal}>
-        <h3>mudou</h3>
+        <div className={classes.footItem}>
+          <a href={link} target={'_blank'}>
+            <h3>mudou</h3>
+          </a>
+        </div>
       </div>
     </div>
   )
