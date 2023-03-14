@@ -39,15 +39,14 @@ const Projects = () => {
   ]
 
   return (
-    <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 sm:mt-[750px] md:mt-[1000px] sm:h-screen mb-[15%]'>
+    <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 sm:mt-[750px] md:mt-[1000px] sm:min-h-fit'>
         <h1 className='text-gray-900 sm:text-4xl text-2xl font-bold font-montserrat text-center mb-[10%]'>Projetos</h1>
         <p className='text-gray-900 md:text-lg sm:text-base text-sm text-center font-montserrat font-medium mb-[15%]'>
           Estes são alguns dos projetos que desenvolvi durante minha jornada de desenvolvedor. Alguns são projetos apenas de FrontEnd, outros apenas de BackEnd, e o restante é FullStack. Todas as stacks estão detalhadas. Para melhor detalhamento dos projetos, acesse meu GitHub: <a href='https://github.com/Schocs' target='_blank' className='hover:text-indigo-500'>https://github.com/Schocs</a>
         </p>
-        <ItemProjeto />
-{/*         {
+       {
           (projectData.map((item, id) => (
-            <ProjectItem
+            <ItemProjeto
             key={id}
             image={item.image}
             titulo={item.titulo}
@@ -56,7 +55,7 @@ const Projects = () => {
             link={item.link}
             />
           )))
-        } */}
+        } 
     </div>
   )
 }
