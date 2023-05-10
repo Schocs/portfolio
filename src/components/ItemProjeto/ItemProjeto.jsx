@@ -29,7 +29,7 @@ const ItemProjeto = ( { image, alt, titulo, descricao, stack, link } ) => {
           <img src={image} alt={alt} className={classes.imgInicio} />
         </div>
         <div className={seta ? classes.seta : classes.sideItem} onClick={showHidden}>
-          <AiOutlineArrowRight style={{width: '40px', height: '40px'}} /> 
+          <AiOutlineArrowRight style={{width: '30px', height: '30px'}} /> 
         </div>
       </div>
       <div className={isHidden ? classes.hidden : classes.itemFinal} onMouseEnter={showSetaFinal} onMouseLeave={showSetaFinal}>
@@ -38,7 +38,7 @@ const ItemProjeto = ( { image, alt, titulo, descricao, stack, link } ) => {
         </div>
         <div className={classes.bodyItem}>
           <div className={setaFinal ? classes.setaFinal : classes.sideItemFinal} onClick={showHidden}>
-            <AiOutlineArrowLeft style={{width: '40px', height: '40px'}} />
+            <AiOutlineArrowLeft style={{width: '30px', height: '30px'}} />
           </div>
           <div className={classes.mainBody}><p style={{fontSize: '18px'}}>{descricao}</p></div>
         </div>
