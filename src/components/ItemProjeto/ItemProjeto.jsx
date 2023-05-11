@@ -33,7 +33,7 @@ const ItemProjeto = ( { image, alt, titulo, descricao, stack, link } ) => {
         </div>
       </div>
       <div className={isHidden ? classes.hidden : classes.itemFinal} onMouseEnter={showSetaFinal} onMouseLeave={showSetaFinal}>
-      <div className={classes.tituloItem}>
+        <div className={classes.tituloItem}>
           <h3 style={{fontWeight: 'bold'}}>{titulo}</h3>
         </div>
         <div className={classes.bodyItem}>

@@ -42,6 +42,7 @@ p, h1, h2, h3, h4, a {
 .item-final{
     height: 60vh;
     margin: auto;
+    margin-top: 10vh;
     margin-bottom: 10vh;
     position: relative;
     display: flex;
@@ -52,11 +53,6 @@ p, h1, h2, h3, h4, a {
     border-width: 2px;
     border-color: black;
     background: rgb(148 163 184);
-}
-
-
-.tituloItem{
-    margin: auto;
 }
 
 .img-Item {
@@ -74,6 +70,61 @@ p, h1, h2, h3, h4, a {
     height: 100%;
     width: 100%;
 }
+
+.tituloItem{
+    margin: auto;
+    margin-top: 2.5%;
+    margin-bottom: 1.5%;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bodyItem {
+    margin-top: -3%;
+    display: flex;
+    width: 100%;
+    height: 70%;
+}
+
+.sideItemFinal {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.main-Body {
+    margin: auto;
+    width: 95%;
+    height: 100%;
+}
+
+.footItem {
+    height: 5%;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.stackItem {
+    height: 7.5%;
+    width: 100%; 
+    margin: auto;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 
 @media (min-width: 640px){
 
@@ -103,7 +154,7 @@ p, h1, h2, h3, h4, a {
 
     .item-final{
         margin-top: -50px;
-        height: 40vh;
+        height: 50vh;
         margin-bottom: 100px;
         flex-direction: column;
         justify-content: center;
