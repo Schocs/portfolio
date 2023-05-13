@@ -11,31 +11,38 @@ p, h1, h2, h3, h4, a {
 @media(min-width: 640px){
 
     .form {
-        width: 60vw;
-        padding: 1.5%;
+        width: 40vw;
+        height: 65vh;
+        padding-left: 1%;
+        padding-right: 1%;
         border-radius: 8px;
         margin: auto;
     }
 
     .mainForm {
-        height: 25vh;
+        height: 20vh;
         width: 100%;
-        display: flex;
-        justify-content: space-between;
+        display: block;
         align-items: center;
+        margin-bottom: 9vh;
     }
 
     .itemForm {
-        height: 100%;
-        width: 33%;
+        height: 20%;
+        width: 100%;
         display: block;
         justify-content: center;
         align-items: center;
+        margin-top: 1.5vh;
+        margin-bottom: 5vh;
     }
 
     .labelForm {
         align-self: first baseline;
         justify-self: center;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: Montserrat;
     }
 
     .inputForm {
@@ -45,6 +52,21 @@ p, h1, h2, h3, h4, a {
         justify-self: flex-start;
         border-radius: 8px;
         border-width: 1px;
-        border-color: black;
+        border-color: rgb(161, 167, 175);
+    }
+
+    .msgForm {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .txtArea {
+        width: 80%;
+        height: 100%;
+        margin-left: 2.5%;
+        border-radius: 8px;
     }
 }

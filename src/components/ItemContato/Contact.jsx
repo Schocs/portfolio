@@ -20,6 +20,7 @@ const Contact = () => {
     return (
         <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 sm:h-screen'>
             <h1 className='text-gray-900 sm:text-4xl text-2xl font-bold font-montserrat text-center mb-[10%]'>Contato</h1>
+            <p className='text-gray-900 md:text-lg sm:text-base text-sm text-center font-montserrat font-medium mb-[1.5%]'> Entre em contato através do formulário abaixo, ou, caso prefira, envie um email diretamente para joaochocron@gmail.com!</p>
             <form action="" method='POST' encType='multipart/form-data' ref={form} onSubmit={sendEmail} className={classes.form}>
                 <div className={classes.mainForm}>
                     <div className={classes.itemForm}>
@@ -35,9 +36,9 @@ const Contact = () => {
                         <input type="text" name="assunto" id="" className={classes.inputForm}/>
                     </div>
                 </div>
-                <div>
-                    <label>Mensagem:</label>
-                    <textarea rows={10} name='mensagem'></textarea>
+                <div className={classes.msgForm}>
+                    <label className={classes.labelForm}>Mensagem:</label>
+                    <textarea rows={20} name='mensagem' className={classes.txtArea}></textarea>
                 </div>
             </form>
         </div>

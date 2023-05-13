@@ -140,7 +140,7 @@ p, h1, h2, h3, h4, a {
 
     .item-inicio{
         height: 40vh;
-        width: 30vw;
+        width: 40vw;
         margin-bottom: 25%;
         flex-direction: row;
         justify-content: space-between;
@@ -159,7 +159,7 @@ p, h1, h2, h3, h4, a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 50vw;
+        width: 55vw;
     }
 
     .item-final:hover{
