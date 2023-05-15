@@ -141,7 +141,7 @@ p, h1, h2, h3, h4, a {
     .item-inicio{
         height: 40vh;
         width: 40vw;
-        margin-bottom: 25%;
+        margin-bottom: 15%;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -150,6 +150,7 @@ p, h1, h2, h3, h4, a {
     .item-inicio:hover{
         transform: scale(110%);
         transition-duration: 750ms;
+        box-shadow: 15px 15px 20px -5px rgb(251 207 232);
     }
 
     .item-final{
@@ -165,6 +166,7 @@ p, h1, h2, h3, h4, a {
     .item-final:hover{
         transform: scale(110%);
         transition-duration: 750ms;
+        box-shadow: 15px 15px 20px -5px rgb(251 207 232);
     }
 
     .tituloItem {

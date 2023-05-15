@@ -36,27 +36,27 @@ const stackData = [
     {
         image: java,
         titulo: 'Java',
-        descricao: 'Experiência com JDK8+, JRE11+ e 8+. Desenvolvo em 17+'
+        descricao: 'Experiência com JDK8+, JRE11+ e 8+. Desenvolvo em 17+.'
     },
     {
         image: spring,
         titulo: 'Spring Boot',
-        descricao: 'Experiência com 2.7+. Desenvolvo em 3+'
+        descricao: 'Experiência com 2.7+. Desenvolvo em 3+.'
     },
     {
         image: postgres,
         titulo: 'Postgres Sql',
-        descricao: '13+'
+        descricao: 'Experiência básica em 13+ e em alguns conceitos de SQL aplicado a Postgres.'
     },
     {
         image: javascript,
         titulo: 'JavaScript',
-        descricao: 'Experiência com ES5. Desenvolvo em ES6'
+        descricao: 'Experiência com ES5. Desenvolvo em ES6.'
     },
     {
         image: react,
         titulo: 'ReactJs e ReactNative',
-        descricao: 'Desenvolvo em 16+ e 0.70'
+        descricao: 'Desenvolvo em 16+ e 0.70.'
     },
 ]
 
