@@ -111,8 +111,9 @@ p, h1, h2, h3, h4, a {
         border-color: grey;
         border-radius: 8px;
         border-width: 1px;
-        background: rgba(251 207 232);
         font-family: Montserrat;
+        cursor: pointer;
+        background-color: rgb(251, 207, 232);
     }
 
     .buttonForm:hover {
