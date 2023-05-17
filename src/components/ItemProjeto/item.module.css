@@ -104,10 +104,10 @@ p, h1, h2, h3, h4, a {
 
 .footItem {
     height: 5%;
-    width: 100%;
+    width: 90%;
     margin: auto;
-    margin-top: 5%;
-    margin-bottom: 1.5%;
+    margin-top: 5.5%;
+    margin-bottom: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +115,7 @@ p, h1, h2, h3, h4, a {
 
 .stackItem {
     height: 7.5%;
-    width: 100%; 
+    width: 90%; 
     margin: auto;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
@@ -123,6 +123,7 @@ p, h1, h2, h3, h4, a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 16px;
 }
 
 

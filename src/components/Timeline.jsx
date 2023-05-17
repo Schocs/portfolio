@@ -11,7 +11,7 @@ const Timeline = ( { ano, duracao, tipo, titulo, detalhes } ) => {
           <span className='leading-none sm:text-sm text-xs font-semibold'>{tipo}</span>
           <span className='leading-none sm:mx-2 text-slate-500'>{duracao}</span>
         </p>
-        <p className='font-montserrat text-xs md:text-base mt-3'>
+        <p className='font-montserrat text-sm md:text-base mt-3'>
           {detalhes}
         </p>
       </li>

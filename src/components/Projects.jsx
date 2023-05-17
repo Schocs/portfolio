@@ -1,5 +1,4 @@
 import React from 'react';
-import ProjectItem from './ProjectItem';
 import ItemProjeto from './ItemProjeto/ItemProjeto';
 import security from '../assets/security-shield-svgrepo-com.svg';
 import calculator from '../assets/calculator-svgrepo-com.svg';
