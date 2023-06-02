@@ -2,7 +2,8 @@ import React from 'react';
 import ItemProjeto from './ItemProjeto/ItemProjeto';
 import security from '../assets/security-shield-svgrepo-com.svg';
 import calculator from '../assets/calculator-svgrepo-com.svg';
-import celular from '../assets/cellphone-svgrepo-com.svg'
+import celular from '../assets/cellphone-svgrepo-com.svg';
+import computador from '../assets/computer-svgrepo-com.svg';
 
 const Projects = () => {
 
@@ -17,9 +18,9 @@ const Projects = () => {
     {
       image:calculator,
       titulo:'Calculadora - FrontEnd',
-      descricao:'Este é um projeto básico de segurança em uma aplicação Spring Boot. Funciona com a geração de um JWT para autenticação, e dentro do token é possível se passar roles para autorização de acesso. No entanto, este projeto contém apenas a parte inicial da segurança. Documentado com JavaDoc.',
-      stack:'React, JavaScript, CSS',
-      link:'https://www.google.com'
+      descricao:'Um projeto de calculadora básica, com features de operações matemáticas básicas, além de exponentes, porcentagem e raiz quadrada. Além disso, possui como feature a possibilidade de se limpar o display(clear), mostrar a última operação feita e seu resultado(history - salvo em localStorage), e resetar tanto o display como o histórico(reset).',
+      stack:'ReactJs, JavaScript, Html, CSS',
+      link:'https://github.com/Schocs/calculadora-react'
     },
     {
       image:celular,
@@ -29,11 +30,11 @@ const Projects = () => {
       link:'https://github.com/Schocs/React-Native-G6'
     },
     {
-      image:calculator,
-      titulo:'Calculadora - FrontEnd',
-      descricao:'Este é um projeto básico de segurança em uma aplicação Spring Boot. Funciona com a geração de um JWT para autenticação, e dentro do token é possível se passar roles para autorização de acesso. No entanto, este projeto contém apenas a parte inicial da segurança. Documentado com JavaDoc.',
+      image:computador,
+      titulo:'Portfólio - FrontEnd',
+      descricao:'O projeto em questão é este portfólio que você está vendo. Este projeto começou apenas pela minha curiosidade em utilizar tailwind, então parte dele é feito com tailwind, e o restante é feito com css puro. É um portfólio bem básico, que contará com projetos que julgar relevante de serem mostrados. Apesar de básico, há alguns elementos de desafio, como renderizações condicionais e envio de email.',
       stack:'React, JavaScript, CSS',
-      link:'https://www.google.com'
+      link:'https://github.com/Schocs/portfolio'
     }
   ]
 
